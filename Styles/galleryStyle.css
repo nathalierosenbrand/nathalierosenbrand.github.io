@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/* CSS Document */
+h1 {
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16;
+  color: #2d2d2b;
+  font-weight: "bold";
+}
+
+p, a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10;
+  color: #2d2d2b;
+ }
+
+.LongTXT{
+	font-size:12px;
+}
+
+.LongTXT{
+	font-size:12px;
+}
+
+body{
+	background-image: url("../images/backgroundgallery.png");
+	background-color: rgb(45, 45, 43, 0.9);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cover{
+	background-color: rgb(45, 45, 43, 0.96);
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
+}
+
+@media (orientation: landscape){ 
+
+.popUp{
+  margin: auto;
+  margin-top: 5%;
+  background-color: #dcdcdc;
+  width: 70vw;
+  height: 70vh;
+  z-index: 100;
+}
+
+.popUp #headImg{
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 30vw;
+	height: 64vh;
+}
+
+#close {
+	position: absolute;
+	top: 13%;
+	left: 82%;
+	width: 24px;
+	height: 24px;
+	z-index: 3;
+}
+
+#cross{
+	position: absolute;
+	top: 13%;
+	left: 82%;
+	width: 24px;
+	height: 24px;
+	background-image: url("../images/close.png");
+	background-size: cover;
+	z-index: 2;
+}
+
+table{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	width: 30%;
+	
+}
+}
+
+@media (orientation: portrait){ 
+
+.popUp{
+  margin: auto;
+  margin-top: 5%;
+  background-color: #dcdcdc;
+  width: 90vw;
+  height: 90vh;
+  z-index: 100;
+}
+
+.popUp #headImg{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 12%;
+	width: 62vw;
+	height: 44vh;
+}
+
+#close {
+	position: absolute;
+	top: 6%;
+	left: 86%;
+	width: 24px;
+	height: 24px;
+	z-index: 3;
+}
+
+#cross{
+	position: absolute;
+	top: 6%;
+	left: 86%;
+	width: 24px;
+	height: 24px;
+	background-image: url("../images/close.png");
+	background-size: cover;
+	z-index: 2;
+}
+
+table{
+	position: relative;
+	left: 12%;
+	top: 1%;
+	width: 60%;
+	
+}
+}

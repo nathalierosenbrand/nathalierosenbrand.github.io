@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Santana';
+    src: url('../fonts/Santana/Santana.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+	background-color: #dcdcdc;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Santana';
+	color: #2d2d2b;
+}
+
+p{
+	color: #2d2d2b;
+    font-family: 'Calibri';
+    font-size: 16px;
+	z-index: 10;
+}
+
+#title h1{
+	color: #dcdcdc;
+    font-family: 'Santana';
+	text-align: center;
+	background-color: #6c736c;
+	width: 94vw;
+	margin-top: 50px;
+	margin: 0 auto;
+	padding: 2%;
+	margin-bottom: 1%;
+}
+
+#title a{
+	position: absolute;
+	left: 2%;
+	top: 5%;
+	text-decoration: none;
+	background-color: #484D48;
+	color: #FFFFFF;
+	font-family: 'Santana';
+	padding: 1%;
+	transition: transform .2s;
+	
+}
+
+#title a:hover{
+	transform: scale(1.1);
+	grid-column: 2 / -2;
+}
+
+.post{
+	display: grid;
+	max-width: 1000px;
+	margin: 200px auto;
+	grid-gap: 10px;
+	grid-template-columns: 15% 60% 15%;
+}
+
+h2, p, a{
+	grid-column: 1 / -1;
+}
+
+h2{
+	color: #dcdcdc;
+    font-family: 'Santana', bold;
+	font-size: 40px;
+	background-color: #6c736c;
+	padding: 2%;
+	grid-column: 1 / -1;
+	width: 96%;
+}
+
+img{
+	margin: 0;
+	grid-column: 1 / -1;
+	width: 100%;
+
+}
+
+video{
+	margin: 0;
+	grid-column: 1 / -1;
+	width: 100%;
+
+}

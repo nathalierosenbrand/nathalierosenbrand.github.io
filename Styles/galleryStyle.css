@@ -30,7 +30,7 @@ p, a{
 }
 
 body{
-	background-image: url("../Images/backgroundgallery.png");
+	background-image: url("../images/backgroundgallery.png");
 	background-color: rgb(45, 45, 43, 0.9);
 	background-repeat: no-repeat;
     background-size: cover;

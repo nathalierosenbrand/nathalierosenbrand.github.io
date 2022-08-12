@@ -162,6 +162,7 @@ a {
 	height: 20vh;
 	top: 0vh;
 	background-image: url("Images/Shadow.png");
+	background-repeat: no-repeat;
 	left: 0;
 	z-index: 13;
 }
@@ -377,6 +378,7 @@ button:hover{
 	height: 20vh;
 	top: -15vh;
 	background-image: url("Images/ShadowM.png");
+	background-repeat: no-repeat;
 	left: 0;
 	z-index: 13;
 }
@@ -498,21 +500,24 @@ p{
 	width: 100vw;
 	background-color: #6c736c; 
 	z-index: 2500;
-	overflow: hidden;
+	
 }
 
 .footer p{
 	position: absolute;
 	font-family:'Santana';
 	color: #dcdcdc;
-	font-size: 30px;
+	font-size: 16px;
 	text-align: left;
-	margin-top: 3.5vh;
-	padding-left: 1%;
+	bottom: 0vh;
 	z-index: 2510;
+	padding: 0% 0% 1% 5%;
+	margin: 0;
 }
 
-/*@media (orientation: landscape){
+/*
+
+@media (orientation: landscape){
 #buttonsFooter{
 	position: absolute;
 	left: 85vw;
